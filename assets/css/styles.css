@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar-brand p{
+    color: #8c8384 !important;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+nav.navbar.navbar-light.bg-light{
+    background-color: #fcfcfc !important;
+}
+.nav-item, .nav-link{
+    color: #8c8384 !important;
+    text-transform: uppercase;
+}
+.nav-item:hover, .nav-link:hover{
+    color: #a1cdea !important;
+}
+.dropdown-menu,.dropdown-item{
+    background: #d6e0e9 !important;
+    color:#767a83 !important;
+}
+.dropdown-menu:hover, .dropdown-item:hover{
+    color: #a1cdea !important;
+}
+/* Main */
+#header{
+    background: #275e85 !important;
+    color:white;
+}
+#header main h1{
+    font-weight: bolder;
+}
+#header main p.lead{
+    font-size: 25px;
+    font-weight: 900;
+}
+#header main h1, main p.lead{
+    text-transform: uppercase;
+}
+
+/* adeurPresentation */
+#adeurPresentation h1{
+    text-transform: uppercase;
+}
+
+/* adeurInfo */
+#header-info{
+    background: #275e85 !important;
+    color:white;
+}
+#adeurInfo main h1, #adeurInfo main h2{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+#adeurInfo p.lead{
+    text-transform: none;
+}
+
+/* Footer */
+#footer-main{
+    background-color: #202123 !important;
+    color: white !important;
+}
